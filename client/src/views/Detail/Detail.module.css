@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.image{
+    width:30vw;
+    height: 38vw;
+    margin-top: 2vw;
+    border-radius: 2vw;
+}
+
+.driverData{
+    color:#F9DBBB;
+    width: 60vw;
+    text-align: center;
+    margin-top: 2vw;
+    padding: 3vw;    
+    font-size: 0.9vw;
+}
