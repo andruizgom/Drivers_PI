@@ -39,8 +39,8 @@ const reducer = (state = initialState, action) => {
         case CREATE_DRIVER:
             return {
                 ...state,
-                drivers: [...drivers, action.payload],
-                driversCopy: [...driversCopy, action.payload]
+                drivers: [...state.drivers, action.payload],
+                driversCopy: [...state.driversCopy, action.payload]
             };
 
         case FILTER:
